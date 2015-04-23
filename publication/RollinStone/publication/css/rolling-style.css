@@ -11,7 +11,7 @@ p{font-family: "Gotham-Book", Arial, Gadget, sans-serif;}
 .black{color:#000;}
 .gray{color:#CCC;}
 
-
+.msi{font-size: 2.1rem;}
 /*header*/
 
 .logo{width: 35rem;}
@@ -170,24 +170,98 @@ color: #fff !important; font-size: 1.7rem;}
   color: #fff;
 }
 
+/*cajas de noticias*/
+.tit_line {
+  border: 1.2% dotted #ccc;
+  margin-top: 1%;
+}
+.date_1{text-align: left; font-size: 1rem;}
+
+.highlite_txt{background-color:#E5282A; margin: 0 0 0 0; }
+
+.break{text-align: center; padding: 2% 0 2% 0}
+.tit_dest{font-family: "parkinsonbold", Times New Roman, Times, serif;
+       font-size: 2.6rem;
+       }
+
+.tit_line_dw{
+  border: 1px dotted #ccc;
+  margin-top: 1%;
+}
+
+.whit_img{height: 12rem;}
+
+.not_img {height: 7rem;}
+  
+
 .feed_1{
   padding: 0 0 0 2.3%;
- 
-}
-.feed_1 p{
+  }
+.feed_1 p {
   font-family: "parkinsonmedium", Times New Roman, Times, serif;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+  padding: 1% 0 0 0%;
+  margin: 0 0 0 0%;
+  line-height: 2rem;
 }
+
 .ad1 {
-  background-color: #ccc;
   height: 329px;
   width: 95%;
   padding: 2%;
 }
 
-.caja_thm{float: left;}
+.caja_thm {float: left;margin: 0 0 0 0%;}
+.caja_thm2 {float: left;margin: 0 3% 0 0%;}
+
+.caja_thm img{width: 64%;}
+.caja_thm2 img {width: 98%;margin-bottom: 5%;}
+
+.date_1 {
+  text-align: right;
+  font-size: 0.9rem !important;
+  color: #858282;
+  margin: 0 0 0 0 !important;
+  padding: 4% 0 0 0 !important;
+}
 
 
+
+
+/*agregado*/
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+  margin-top:50px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+
+#nav {
+  width: 100%;
+  position:static;
+  top:-32px;
+}
+
+#nav.affix {
+   position: fixed;
+   top: 0;
+   z-index:10;
+   -webkit-transition: all .6s ease-in-out;
+}
 
 
 

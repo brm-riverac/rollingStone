@@ -7,3 +7,4 @@ $(document).ready(function(){
         $(this).find('.modal-title').text(titleData + '');
     });
 });
+

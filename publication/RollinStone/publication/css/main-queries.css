@@ -2,10 +2,7 @@
 /* CSS Document */
 
  @media screen and (max-width: 1400px) {
-.destacado_1 {
-  height: 158px;
-  width: 14%;
-}
+.destacado_1 {top: 1.6%;}
 
 
 
