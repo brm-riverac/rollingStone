@@ -2,9 +2,17 @@
 /* CSS Document */
 
  @media screen and (max-width: 1400px) {
-.destacado_1 {top: 1.6%;}
 
-
+.destacado_1 {
+  background: url("../images/saul_goodman.png") no-repeat center center;
+  background-size: 100%;
+  height: 179px;
+  width: 12%;
+  margin: 0 0 0 0;
+  position: absolute;
+  top: 0%;
+  z-index: 9;
+}
 
 }
 
