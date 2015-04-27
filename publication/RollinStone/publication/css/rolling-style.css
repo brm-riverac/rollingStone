@@ -161,7 +161,7 @@ color: #fff !important; font-size: 1.7rem;}
 
 .subs-bar h2 {
   font-family: "parkinsonmedium", Times New Roman, Times, serif;
-  padding: 0.7% 0 0 13%;
+  padding: 0.7% 0 0 19%;
   margin: 0;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -243,9 +243,10 @@ padding: 0 2% 0 2%;
 
 
 .ad1 {
-  height: 329px;
+  height: 192px;
   width: 100%;
   padding: 7% 0 0 0;
+  overflow: hidden;
 }
 
 .sefect-img{width: 100%; height: 12rem; background:url(../images/rollinstone18.jpg) center no-repeat; z-index: -9;}
@@ -367,6 +368,42 @@ padding: 0 2% 0 2%;
  position: absolute;
 }
 
+
+/*2 seccion y slider-reseñas*/
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 376px;
+}
+.caja_thm3 {
+  float: left;
+  margin: 0 0 0 0%;
+  width: 50%;
+}
+.caja_thm3 img {
+  width: 49%;
+}
+
+.slider1{
+  padding: 2.5% 0 0 0;
+  margin-bottom: 3%;
+}
+
+
+.slider2{
+  padding: 2.5% 0 0 0;
+  margin-bottom: 3%;
+}
+
+
+
+
+
+
+
+
 /*footer*/
 
 .full {
@@ -379,7 +416,7 @@ padding: 0 2% 0 2%;
   display: block;
 }
 .footer {
-  background: #EDEFF1;
+  background: #000;
   height: auto;
   padding-bottom: 30px;
   position: relative;
