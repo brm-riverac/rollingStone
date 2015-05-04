@@ -375,7 +375,7 @@ padding: 0 2% 0 2%;
   position: relative;
   width: 100%;
   overflow: hidden;
-  height: 376px;
+  height: 320px;
 }
 .caja_thm3 {
   float: left;
@@ -448,7 +448,7 @@ padding: 0 2% 0 2%;
   color: #7F8C8D;
 }
 .footer ul li a {
-  padding: 0 0 5px 0;
+  padding: 4px 0 0px 0;
   display: block;
 }
 .footer a {
@@ -491,6 +491,13 @@ padding: 0 2% 0 2%;
   background-image: -moz-linear-gradient(center bottom, #BBBBBB 0%, #F0F0F0 100%);
   box-shadow: 0 1px 0 #B4B3B3;
 }
+
+
+.sub_sc{
+  width: 80%;
+  margin: 0% 0 0 33%;
+}
+
 .social li {
   background: none repeat scroll 0 0 #B5B5B5;
   border: 2px solid #B5B5B5;
@@ -521,14 +528,15 @@ padding: 0 2% 0 2%;
 }
 .social li a {
   color: #EDEFF1;
+
 }
 .social li:hover {
-  border: 2px solid #2c3e50;
-  background: #2c3e50;
+  border: 2px solid #E5282A;
+  background: #E5282A;
 }
 .social li a i {
   font-size: 16px;
-  margin: 0 0 0 5px;
+  margin: 0 0 0 0px;
   color: #EDEFF1 !important;
 }
 .footer-bottom {
