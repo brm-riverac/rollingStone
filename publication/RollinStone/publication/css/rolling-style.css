@@ -4,7 +4,7 @@
 h1,h2,h3,h4,h5{font-family: "parkinson_blackregular", Times New Roman, Times, serif; }
 span,a,li{font-family: "Gotham-Black", Arial Black, Gadget, sans-serif; color:#000; text-decoration: none !important; list-style: none;}
 p{font-family: "Gotham-Book", Arial, Gadget, sans-serif;}
-
+.park{font-family: "parkinsonmedium", Times New Roman, Times, serif !important;}
 
 /*colores*/
 .red{color:#E5282A;}
@@ -163,6 +163,7 @@ color: #fff !important; font-size: 1.7rem;}
   margin: 1.5% 0 0 0;
   text-align: center;
   width: 100%;
+  background: url("../images/textures/PatternTexture.png") center center repeat #A4A3A3;
 }
 .subs-bar span{display: inline-block; color:#5D5D5D;font-family: "parkinsonmedium", Times New Roman, Times, serif; font-size: 3rem;}
 
@@ -175,7 +176,7 @@ color: #fff !important; font-size: 1.7rem;}
   float: left;
   text-align: center;
   color: #fff;
-  background: url("..images/textures/PatternTexture.png") center center repeat;
+ 
 }
 
 .sub_bt{margin: 0 0 0 -13%;font-family: "Gotham-Black", Arial Black, Gadget, sans-serif; }
@@ -185,7 +186,7 @@ color: #fff !important; font-size: 1.7rem;}
   border: 1.2% dotted #ccc;
   margin-top: 1%;
 }
-.date_1{text-align: left; font-size: 1rem;}
+
 
 .highlite_txt{background-color:#E5282A; margin: 0 0 0 0; }
 
@@ -229,10 +230,24 @@ color: #fff !important; font-size: 1.7rem;}
 
 .date_1 {
   text-align: right;
-  font-size: 0.9rem !important;
+  font-size: 0.9rem !important; 
   color: #858282;
   margin: 0 0 0 0 !important;
   padding: 4% 0 0 0 !important;
+  float: right;
+
+}
+
+.date_2 {
+  text-align: right;
+  font-size: 0.9rem !important;; 
+  color: #858282;
+  margin: 0 0 0 0 !important;
+  padding: 2.7% 0 0 0 !important;
+  text-align: left; 
+  float: right;
+  float: right;
+
 }
 
 /*columna principal*/
@@ -274,9 +289,9 @@ color: #fff !important; font-size: 1.7rem;}
 
 /*entrevistas*/
 
-.sefect-img6{width: 100%; height: 106px; background:url(../images/rollinstone31.jpg) center no-repeat; z-index: -9; padding: 28.8% 0 0 0;}
-.sefect-img7{width: 100%; height: 106px; background:url(../images/rollinstone41.jpg) center no-repeat; z-index: -9; padding: 28.8% 0 0 0;}
-.sefect-img8{width: 100%; height: 106px; background:url(../images/rollinstone46.jpg) center no-repeat; z-index: -9; padding: 28.8% 0 0 0;}
+.sefect-img6{width: 100%; height: 106px; background:url(../images/rollinstone31.jpg) center no-repeat; z-index: -9; padding: 29.2% 0 0 0;}
+.sefect-img7{width: 100%; height: 106px; background:url(../images/rollinstone41.jpg) center no-repeat; z-index: -9; padding: 29.2% 0 0 0;}
+.sefect-img8{width: 100%; height: 106px; background:url(../images/rollinstone46.jpg) center no-repeat; z-index: -9; padding: 29.2% 0 0 0;}
 
 .rend_box{background-color:#E5282A; width: 35%; height: 25px; margin:0% 0 0 0; padding: 1.5% 0 0 0;}
 .rend_box p{color:#fff; text-align: center;}
@@ -384,7 +399,7 @@ color: #fff !important; font-size: 1.7rem;}
    color:#ccc;
 }
 
-.incbox{width:100%; height: 400px; background-color: #EBEBEB; text-align: center; padding: 4%; }
+.incbox{width:100%; height: 334px; background-color: #EBEBEB; text-align: center; padding: 7%; }
 .incbox img{ width: 80%;}
 .incbox h3{font-family: "parkinsonbold", Times New Roman, Times, serif;   font-size: 2.3rem;}
 .incbox p{ line-height: 1.5rem;}  
@@ -401,11 +416,14 @@ color: #fff !important; font-size: 1.7rem;}
 .caja_thm3 {
   float: left;
   margin: 0 0 0 0%;
-  width: 50%;
+  width: 27%;
 }
 .caja_thm3 img {
-  width: 49%;
+  width: 74%;
 }
+
+
+
 
 .slider1{
   padding: 2.5% 0 0 0;
