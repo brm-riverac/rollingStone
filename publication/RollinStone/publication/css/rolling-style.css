@@ -13,7 +13,13 @@ p{font-family: "Gotham-Book", Arial, Gadget, sans-serif;}
 
 .msi{font-size: 2.1rem;}
 /*header*/
-
+#header {
+  background-color: #fff;
+  z-index: 999;
+  border: none;
+  margin-top: -0.1%;
+  height: 6rem;
+}
 .logo{width: 35rem;}
 .logobox{margin: -1% 0 0 0;}
 .brandy {width: 19rem;margin: 0 0 0 0;}
@@ -131,7 +137,7 @@ p{font-family: "Gotham-Book", Arial, Gadget, sans-serif;}
 
 
 /*banner*/
-.banner{padding: 0 0 0 0;}
+.banner{padding: 1.6% 0 0 0;}
 
 .img_banner {
   background: url("../images/rollinstone1.png") no-repeat center center;
