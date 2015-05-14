@@ -31,5 +31,72 @@
 
 
  @media screen and (max-width: 420px) {
+.img_banner {
+  background: url("../images/banerpq.png") no-repeat center center;
+  height: 400px;
+  background-size: 100%;
+}
+
+.ban_txt {font-size: 3.5rem;width: 57%;}
+.titular_banner {padding: 21% 0 0 6%;color: #fff;}
+.banner {padding: 0 0 0 0;}
+.slick-slide img {
+  display: block;
+  padding: 0 0 5% 0%;
+  width: 84%;
+}
+.slider2_1 p {text-align: center;font-size: 1rem;width: 9rem;}
+.slider2_1 {width: 99%;height: 162px;padding: 4% 7% 0 7%;background-color: #ccc;margin: 0 0 3% 0;border-bottom: 1px #000 dotted;}
+.slick-prev, .slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 17%;
+  display: block;
+  width: 21px;
+  height: 50px;
+}
+.caja_thm2 img {width: 72%;margin-bottom: 2%;}
+.caja_thm3 img {width: 57%;}
+.caja_thm3 {float: left;margin: 0 0 0 0%;width: 26%;}
+.park {font-size: 1.5rem;}
+.feed_1 {padding: 4%;}
+.not_img {height: 7rem;}
+.caja_thm {float: left;margin: 0 0 0 0%;width: 32%;}
+.incbox {width: 100%;height:auto; background-color: #EBEBEB;text-align: center;padding: 6% 8% 9% 8%;margin: -5% 0 7% 0;}
+.navbar-right {
+  float: right!important;
+  margin-right: 0;
+  width: 100%;
+}
+
+.busq {
+  display: block;
+  width: 88%;
+  float: left;
+  height: 34px;
+  padding: 6px 11px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #000;
+  background-color: #ccc;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 2rem;
+}
+
+.menu_u{
+  padding: 0;
+  margin: 7% 0 0 0;
+}
+
+
+
+
+
+
+
+
+
 
 }

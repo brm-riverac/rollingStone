@@ -59,7 +59,7 @@
 </div>
 </div>
 
-<div id="header">
+<div id="head1"><!-- head1 -->
 <nav class="navbar navbar-default yamm">
   <div class="container">
   <div class="container-fluid">
@@ -76,8 +76,7 @@
       </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 " >
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">HOME <span class="sr-only">(current)</span></a></li>
         <li class="dropdown yamm-fw">
@@ -86,7 +85,7 @@
                 <li>
                   <div class="yamm-content container">
                     <div class="row">
-                      <div class="col-lg-3 col-xs-6 col-sm-2">
+                      <div class="col-lg-3 col-xs-12 col-sm-12">
                       <!-- noticia principal -->
                       <div class="mega_1"><a href="#" class="thumbnail"><img alt="Motorhead" src="images/thumb_1.png"></a></div> 
                       <h4>MotorHead</h4>
@@ -95,7 +94,7 @@
                       <a href="#" class="red">Ver Más</a>
                       </div>
 
-                      <div class="col-lg-5 col-xs-6 col-sm-2">
+                      <div class="col-lg-5 hidden-xs hidden-sm">
                       <!-- noticia1 -->
                       <div class="mega_2">
                       <div class="thumb_m2"><img src="images/min/thumb1.png"></div>
@@ -127,7 +126,7 @@
                       </div>
                       </div>
                       
-                      <div class="col-lg-4 col-xs-6 col-sm-2">
+                      <div class="col-lg-4 col-xs-12 col-sm-12">
                       <ul class="men_u">
                         <a href="#"><li>Actualidad <span class="icon-rollin_as-06"></span></li></a>
                         <a href="#"><li>Artículos <span class="icon-rollin_as-06"></span></li></a>
@@ -461,14 +460,12 @@
       </form>
     
     </div><!-- /.navbar-collapse -->
-    </div><!-- /.sticky -->
     </div>
   </div><!-- /.container-fluid -->
   </div>
 </nav>  
-
+</div><!-- #head1  -->
 </header>
-
 
 
 
@@ -489,14 +486,14 @@
   </div>
   </article> 
   
-  <aside class="col-lg-12 subs-bar">
+  <aside class="col-lg-12 hidden-xs hidden-sm-12 subs-bar">
   <h2>El pulso de la cultura por solo <span>$69.900</span> </h2>
   <button type="button" class="btn btn-danger btn-lg sub_bt">Suscríbete</button>
   </aside>
 </div>
 
-<div class="row">
-<article class="feed_1 col-lg-2">
+<div class="row hidden-xs hidden-sm-12">
+<article class="feed_1 col-lg-2 ">
 <h3 class="msi"><span class="icon-rollin_as-09 red"></span> NUEVO</h3>
 <hr class="tit_line">
 
@@ -1090,7 +1087,7 @@ el sueño de todo artista el Hall of Fame </p>
 <script src="js/slider2.js"></script>
   <script>
     $(window).load(function(){
-      $("#header").sticky({ topSpacing: 0 });
+      $("#head1").sticky({ topSpacing: 0 });
     });
   </script>
 
