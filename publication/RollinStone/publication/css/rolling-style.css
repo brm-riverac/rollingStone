@@ -10,6 +10,8 @@ p{font-family: "Gotham-Book", Arial, Gadget, sans-serif;}
 .red{color:#E5282A !important;}
 .black{color:#000;}
 .gray{color:#CCC;}
+.bgred{background-color:#E5282A ;}
+
 
 .msi{font-size: 2.1rem;}
 /*header*/
@@ -20,6 +22,9 @@ p{font-family: "Gotham-Book", Arial, Gadget, sans-serif;}
   margin-top: -0.1%;
   height: 6rem;
 }
+.caja_redes a li{font-size: 2.4rem;}
+a:hover{color:#E5282A }
+
 .logo{width: 35rem;}
 .logobox{margin: -1% 0 0 0;}
 .brandy {width: 19rem;margin: 0 0 0 0;}
@@ -279,12 +284,8 @@ color: #fff !important; font-size: 1.7rem;}
 }
 
 
-.ad1 {
-  height: 192px;
-  width: 100%;
-  padding: 7% 0 0 0;
-  overflow: hidden;
-}
+.ad1 {height: 192px;width: 100%;padding: 7% 0 0 0;overflow: hidden;}
+.ad2 {height: 193px;width: 106%;padding: 7% 0 0 0;overflow: hidden;}
 
 .rend  {width: 14%;height: 3rem;background: url(../images/min/counter_-04.png) center no-repeat;float: right;margin-top: 27.5%;}
 .rend2 {width: 14%;height: 3rem;background: url(../images/min/counter_-05.png) center no-repeat;float: right;margin-top: 27.5%;}
@@ -640,7 +641,7 @@ color: #fff !important; font-size: 1.7rem;}
   background: #E5282A;
 }
 .social li a i {
-  font-size: 16px;
+  font-size: 2.4rem;
   margin: 0 0 0 0px;
   color: #EDEFF1 !important;
 }
