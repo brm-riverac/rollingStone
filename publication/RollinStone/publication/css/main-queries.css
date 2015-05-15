@@ -85,17 +85,25 @@
   border-radius: 2rem;
 }
 
-.menu_u{
-  padding: 0;
-  margin: 7% 0 0 0;
+.dotw ul{padding: 0;margin: 7% 0 0 0;}
+
+
+.navbar-default {
+  background-color: #fff;
+  border-bottom: 2px #000 solid;
+  border-top: 0px dotted; 
+  border-radius: none;
+  border-radius: 0px;
+  z-index: 999;
 }
 
+.footer-bottom {border-top: 0px solid #DDDDDD;}
 
+.footer-bottom p.pull-left {margin: 1% 0 0 0;text-align: center;width: 100%;font-size: 1rem;}
 
-
-
-
-
+.footer h2 {
+  font-family: "parkinsonbold", Times New Roman, Times, serif;
+}
 
 
 

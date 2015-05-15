@@ -7,7 +7,7 @@ p{font-family: "Gotham-Book", Arial, Gadget, sans-serif;}
 .park{font-family: "parkinsonmedium", Times New Roman, Times, serif !important;}
 
 /*colores*/
-.red{color:#E5282A;}
+.red{color:#E5282A !important;}
 .black{color:#000;}
 .gray{color:#CCC;}
 
@@ -57,7 +57,7 @@ p{font-family: "Gotham-Book", Arial, Gadget, sans-serif;}
   border-top: 2px dotted;
   border-radius: none;
   border-radius: 0px;
-  z-index: 999;
+  z-index: 8;
 }
 .navbar-default .navbar-nav>li>a {color: #000;}
 
@@ -167,26 +167,27 @@ color: #fff !important; font-size: 1.7rem;}
   height: 63px;
   background-color: #A4A3A3;
   padding: 0.7% 0 0 0%;
-  margin: 1.5% 0 0 0;
+  margin: 0% 0 0 0;
   text-align: center;
   width: 100%;
-  background: url("../images/textures/PatternTexture.png") center center repeat #A4A3A3;
+  background: url("../images/fonda.png") center center repeat #A4A3A3;
 }
+
 .subs-bar span{display: inline-block; color:#5D5D5D;font-family: "parkinsonmedium", Times New Roman, Times, serif; font-size: 3rem;}
 
 .subs-bar h2 {
   font-family: "parkinsonmedium", Times New Roman, Times, serif;
-  padding: 0.7% 0 0 19%;
+  padding: 0% 0 0 15%;
   margin: 0;
   margin-top: 0px;
   margin-bottom: 0px;
   float: left;
   text-align: center;
   color: #fff;
- 
+  font-size: 4rem;
 }
 
-.sub_bt{margin: 0 0 0 -13%;font-family: "Gotham-Black", Arial Black, Gadget, sans-serif; }
+.sub_bt{margin: 0 0 0 -13%;font-family: "Gotham-Book", Arial, Gadget, sans-serif;  }
 
 /*cajas de noticias*/
 .tit_line {
@@ -202,7 +203,7 @@ color: #fff !important; font-size: 1.7rem;}
 .highlite_txt{background-color:#E5282A; margin: 0 0 0 0; }
 
 .break{text-align: center; padding: 2% 0 2% 0}
-.tit_dest{font-family: "parkinsonbold", Times New Roman, Times, serif; font-size: 2.6rem;}
+.tit_dest{ font-size: 2.6rem;}
 
 .tit_line_dw{
   border: 1px dotted #ccc;
