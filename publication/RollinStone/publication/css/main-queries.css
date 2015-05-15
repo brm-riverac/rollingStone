@@ -4,14 +4,15 @@
  @media screen and (max-width: 1400px) {
 
 .destacado_1 {
-  background: url("../images/saul_goodman.png") no-repeat center center;
+  background: url("../images/saul_goodman.png") no-repeat center bottom;
   background-size: 100%;
-  height: 179px;
-  width: 12%;
+  height: 170px;
+  width: 13%;
   margin: 0 0 0 0;
   position: absolute;
-  top: 0%;
+  top: -1%;
   z-index: 9;
+  
 }
 
 }

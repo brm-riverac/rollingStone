@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-h1,h2,h3,h4,h5{font-family: "parkinson_blackregular", Times New Roman, Times, serif; }
+h1,h2,h3,h4,h5{font-family: "parkinsonbold", Times New Roman, Times, serif; }
 span,a,li{font-family: "Gotham-Black", Arial Black, Gadget, sans-serif; color:#000; text-decoration: none !important; list-style: none;}
 p{font-family: "Gotham-Book", Arial, Gadget, sans-serif;}
 .park{font-family: "parkinsonmedium", Times New Roman, Times, serif !important;}
@@ -42,14 +42,15 @@ a:hover{color:#E5282A }
 
 .caja_thumb{padding-top: 1%;}
 .destacado_1 {
-  background: url("../images/saul_goodman.png") no-repeat center center;
+  background: url("../images/saul_goodman.png") no-repeat center bottom;
   background-size: 100%;
-  height: 151px;
+  height: 161px;
   width: 10%;
   margin: 0 0 0 0;
   position: absolute;
-  top: 1.2%;
-  z-index: 9;}
+  top: 0%;
+  z-index: 9;
+}
 
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
   margin-left: 0;
@@ -667,3 +668,13 @@ color: #fff !important; font-size: 1.7rem;}
   font-size: 1.2rem;
 }
 
+.blcky{
+   background-color: #000;
+
+}
+.wr{color: #fff;}
+.barc {margin: 3% 0 0 0;}
+.tvc {margin: 3% 0 6% 0;}
+.barc label{color: #fff;}
+.barc h2{color: #fff;}
+.redd{width: 100%; height: 1rem; background-color:#E5282A ;}
